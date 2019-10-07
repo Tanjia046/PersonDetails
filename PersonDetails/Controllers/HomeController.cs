@@ -12,7 +12,7 @@ namespace PersonDetails.Controllers
 {
     public class HomeController : Controller
     {
-        PersonDbContext db = new PersonDbContext();
+        PersonsRepository db = new PersonsRepository();
 
 
         //Http: GET
