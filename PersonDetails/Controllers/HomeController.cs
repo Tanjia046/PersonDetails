@@ -19,7 +19,7 @@ namespace PersonDetails.Controllers
 
         public ActionResult Index()
         {
-            var data = db.Persons.ToList();
+            var data = db.GetEmployees().ToList();
 
             return View(data);
         }
